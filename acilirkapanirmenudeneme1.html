@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="acilirkapanirmenudeneme1.css">
+        <title>Acilir Kapanir Menu Deneme</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Accordion Menu 1</h2>
+            <div>
+                <div class="accordion">
+                    <!--Menu1-->
+                    <div class="accordion-item">
+                        <a href="#">What is Angular JS? How to use?</a>
+                        <div class="info">
+                            <p>Amet vulputate risus eu litora tempus nibh in et a dignissim sed potenti magnis porta id a odio leo a hac nisl ligula fames semper.</p>
+                        </div>
+                    </div>
+
+                     <!--Menu2-->
+                     <div class="accordion-item">
+                        <a>What is ReactJS? How to use?</a>
+                        <div class="info">
+                            <p>Amet vulputate risus eu litora tempus nibh in et a dignissim sed potenti magnis porta id a odio leo a hac nisl ligula fames semper.</p>
+                        </div>
+                    </div>
+
+                     <!--Menu3-->
+                     <div class="accordion-item">
+                        <a>What is Node.js? How to use?</a>
+                        <div class="info">
+                            <p>Amet vulputate risus eu litora tempus nibh in et a dignissim sed potenti magnis porta id a odio leo a hac nisl ligula fames semper.</p>
+                        </div>
+                    </div>
+
+                     <!--Menu4-->
+                     <div class="accordion-item">
+                        <a>What is Vue.js? How to use?</a>
+                        <div class="info">
+                            <p>Amet vulputate risus eu litora tempus nibh in et a dignissim sed potenti magnis porta id a odio leo a hac nisl ligula fames semper.</p>
+                        </div>
+                    </div>
+
+                     <!--Menu5-->
+                     <div class="accordion-item">
+                        <a>What is jQuery? How to use?</a>
+                        <div class="info">
+                            <p>Amet vulputate risus eu litora tempus nibh in et a dignissim sed potenti magnis porta id a odio leo a hac nisl ligula fames semper.</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <script>
+            const items = document.querySelectorAll(".accordion a");
+            items.forEach((item) => item.addEventListener('click', toggleAccordion));
+    
+            function toggleAccordion() {
+                this.classList.toggle('active');
+                this.nextElementSibling.classList.toggle('active');
+            }
+    
+        </script>
+    </body>
+
+
+
+
+
+
+</html>
